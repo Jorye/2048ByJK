@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B050CD91DB74B2C00A04706 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B050CD81DB74B2C00A04706 /* Images.xcassets */; };
+		6B1F7BDB1DAF25C8007AEF50 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1F7BDA1DAF25C8007AEF50 /* Model.m */; };
 		6B34E5131DAE132800C6EE69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B34E5121DAE132800C6EE69 /* main.m */; };
 		6B34E5161DAE132800C6EE69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B34E5151DAE132800C6EE69 /* AppDelegate.m */; };
 		6B34E5191DAE132800C6EE69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B34E5181DAE132800C6EE69 /* ViewController.m */; };
@@ -15,6 +17,9 @@
 		6B34E5211DAE132800C6EE69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B34E51F1DAE132800C6EE69 /* LaunchScreen.storyboard */; };
 		6B34E52C1DAE132800C6EE69 /* _048ByJKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B34E52B1DAE132800C6EE69 /* _048ByJKTests.m */; };
 		6B34E5371DAE132800C6EE69 /* _048ByJKUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B34E5361DAE132800C6EE69 /* _048ByJKUITests.m */; };
+		6B34E54C1DAE13E600C6EE69 /* GameMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B34E54A1DAE13E600C6EE69 /* GameMainViewController.m */; };
+		6B34E5501DAE1A8D00C6EE69 /* UIColor+HB.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B34E54F1DAE1A8D00C6EE69 /* UIColor+HB.m */; };
+		6BB071C51DB068A700D963EB /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB071C41DB068A700D963EB /* View.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B050CD81DB74B2C00A04706 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6B1F7BD91DAF25C8007AEF50 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		6B1F7BDA1DAF25C8007AEF50 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 		6B34E50E1DAE132800C6EE69 /* 2048ByJK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2048ByJK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B34E5121DAE132800C6EE69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6B34E5141DAE132800C6EE69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +59,12 @@
 		6B34E5321DAE132800C6EE69 /* 2048ByJKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2048ByJKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B34E5361DAE132800C6EE69 /* _048ByJKUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _048ByJKUITests.m; sourceTree = "<group>"; };
 		6B34E5381DAE132800C6EE69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B34E5491DAE13E600C6EE69 /* GameMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameMainViewController.h; sourceTree = "<group>"; };
+		6B34E54A1DAE13E600C6EE69 /* GameMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameMainViewController.m; sourceTree = "<group>"; };
+		6B34E54E1DAE1A8D00C6EE69 /* UIColor+HB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HB.h"; sourceTree = "<group>"; };
+		6B34E54F1DAE1A8D00C6EE69 /* UIColor+HB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HB.m"; sourceTree = "<group>"; };
+		6BB071C31DB068A700D963EB /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		6BB071C41DB068A700D963EB /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +115,14 @@
 		6B34E5101DAE132800C6EE69 /* 2048ByJK */ = {
 			isa = PBXGroup;
 			children = (
-				6B34E5141DAE132800C6EE69 /* AppDelegate.h */,
-				6B34E5151DAE132800C6EE69 /* AppDelegate.m */,
-				6B34E5171DAE132800C6EE69 /* ViewController.h */,
-				6B34E5181DAE132800C6EE69 /* ViewController.m */,
-				6B34E51A1DAE132800C6EE69 /* Main.storyboard */,
-				6B34E51D1DAE132800C6EE69 /* Assets.xcassets */,
-				6B34E51F1DAE132800C6EE69 /* LaunchScreen.storyboard */,
-				6B34E5221DAE132800C6EE69 /* Info.plist */,
+				6B34E5491DAE13E600C6EE69 /* GameMainViewController.h */,
+				6B34E54A1DAE13E600C6EE69 /* GameMainViewController.m */,
+				6B34E54E1DAE1A8D00C6EE69 /* UIColor+HB.h */,
+				6B34E54F1DAE1A8D00C6EE69 /* UIColor+HB.m */,
+				6B1F7BD91DAF25C8007AEF50 /* Model.h */,
+				6B1F7BDA1DAF25C8007AEF50 /* Model.m */,
+				6BB071C31DB068A700D963EB /* View.h */,
+				6BB071C41DB068A700D963EB /* View.m */,
 				6B34E5111DAE132800C6EE69 /* Supporting Files */,
 			);
 			path = 2048ByJK;
@@ -117,6 +131,15 @@
 		6B34E5111DAE132800C6EE69 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6B050CD81DB74B2C00A04706 /* Images.xcassets */,
+				6B34E51D1DAE132800C6EE69 /* Assets.xcassets */,
+				6B34E51F1DAE132800C6EE69 /* LaunchScreen.storyboard */,
+				6B34E5221DAE132800C6EE69 /* Info.plist */,
+				6B34E5141DAE132800C6EE69 /* AppDelegate.h */,
+				6B34E5151DAE132800C6EE69 /* AppDelegate.m */,
+				6B34E5171DAE132800C6EE69 /* ViewController.h */,
+				6B34E5181DAE132800C6EE69 /* ViewController.m */,
+				6B34E51A1DAE132800C6EE69 /* Main.storyboard */,
 				6B34E5121DAE132800C6EE69 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -207,6 +230,7 @@
 				TargetAttributes = {
 					6B34E50D1DAE132800C6EE69 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = L3TSEGLGQE;
 						ProvisioningStyle = Automatic;
 					};
 					6B34E5261DAE132800C6EE69 = {
@@ -247,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B34E5211DAE132800C6EE69 /* LaunchScreen.storyboard in Resources */,
+				6B050CD91DB74B2C00A04706 /* Images.xcassets in Resources */,
 				6B34E51E1DAE132800C6EE69 /* Assets.xcassets in Resources */,
 				6B34E51C1DAE132800C6EE69 /* Main.storyboard in Resources */,
 			);
@@ -273,7 +298,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BB071C51DB068A700D963EB /* View.m in Sources */,
 				6B34E5191DAE132800C6EE69 /* ViewController.m in Sources */,
+				6B34E54C1DAE13E600C6EE69 /* GameMainViewController.m in Sources */,
+				6B34E5501DAE1A8D00C6EE69 /* UIColor+HB.m in Sources */,
+				6B1F7BDB1DAF25C8007AEF50 /* Model.m in Sources */,
 				6B34E5161DAE132800C6EE69 /* AppDelegate.m in Sources */,
 				6B34E5131DAE132800C6EE69 /* main.m in Sources */,
 			);
@@ -422,10 +451,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = L3TSEGLGQE;
 				INFOPLIST_FILE = 2048ByJK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "aa.-048ByJK";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -433,6 +467,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = L3TSEGLGQE;
 				INFOPLIST_FILE = 2048ByJK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "aa.-048ByJK";
@@ -505,6 +542,7 @@
 				6B34E53D1DAE132800C6EE69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6B34E53E1DAE132800C6EE69 /* Build configuration list for PBXNativeTarget "2048ByJKTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +551,7 @@
 				6B34E5401DAE132800C6EE69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6B34E5411DAE132800C6EE69 /* Build configuration list for PBXNativeTarget "2048ByJKUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +560,7 @@
 				6B34E5431DAE132800C6EE69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "GameMainViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    GameMainViewController *gameMain = [[GameMainViewController alloc]init];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:gameMain];
+    self.window.rootViewController = nav;
+    
+    
     return YES;
 }
 
